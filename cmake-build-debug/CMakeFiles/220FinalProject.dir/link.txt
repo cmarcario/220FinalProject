@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc lib220FinalProject.a  CMakeFiles/220FinalProject.dir/library.cpp.o
+/usr/bin/ranlib.exe lib220FinalProject.a
