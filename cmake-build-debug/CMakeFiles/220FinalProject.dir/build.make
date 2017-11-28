@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject
+CMAKE_SOURCE_DIR = /Users/katherine/220FinalProject/220FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/katherine/220FinalProject/220FinalProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/220FinalProject.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/220FinalProject.dir/flags.make
 
 CMakeFiles/220FinalProject.dir/library.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
 CMakeFiles/220FinalProject.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/library.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/library.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/katherine/220FinalProject/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/library.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/library.cpp.o -c /Users/katherine/220FinalProject/220FinalProject/library.cpp
 
 CMakeFiles/220FinalProject.dir/library.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/library.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp > CMakeFiles/220FinalProject.dir/library.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/katherine/220FinalProject/220FinalProject/library.cpp > CMakeFiles/220FinalProject.dir/library.cpp.i
 
 CMakeFiles/220FinalProject.dir/library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/library.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp -o CMakeFiles/220FinalProject.dir/library.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/katherine/220FinalProject/220FinalProject/library.cpp -o CMakeFiles/220FinalProject.dir/library.cpp.s
 
 CMakeFiles/220FinalProject.dir/library.cpp.o.requires:
 
@@ -91,7 +91,7 @@ CMakeFiles/220FinalProject.dir/library.cpp.o.provides.build: CMakeFiles/220Final
 lib220FinalProject.a: CMakeFiles/220FinalProject.dir/library.cpp.o
 lib220FinalProject.a: CMakeFiles/220FinalProject.dir/build.make
 lib220FinalProject.a: CMakeFiles/220FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib220FinalProject.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/katherine/220FinalProject/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib220FinalProject.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/220FinalProject.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/220FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/220FinalProject.dir/clean:
 .PHONY : CMakeFiles/220FinalProject.dir/clean
 
 CMakeFiles/220FinalProject.dir/depend:
-	cd /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/katherine/220FinalProject/220FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/katherine/220FinalProject/220FinalProject /Users/katherine/220FinalProject/220FinalProject /Users/katherine/220FinalProject/220FinalProject/cmake-build-debug /Users/katherine/220FinalProject/220FinalProject/cmake-build-debug /Users/katherine/220FinalProject/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/220FinalProject.dir/depend
 
