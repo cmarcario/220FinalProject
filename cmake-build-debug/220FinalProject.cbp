@@ -38,10 +38,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="220FinalProject">
-				<Option output="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/lib220FinalProject.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/220FinalProject.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
@@ -59,10 +59,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="220FinalProject/fast">
-				<Option output="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/lib220FinalProject.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/220FinalProject.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
@@ -80,10 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp">
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp">
 			<Option target="220FinalProject"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.h">
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp">
 			<Option target="220FinalProject"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/CMakeLists.txt">

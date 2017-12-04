@@ -17,9 +17,6 @@
 //Value Computed by CMake
 220FinalProject_BINARY_DIR:STATIC=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug
 
-//Dependencies for target
-220FinalProject_LIB_DEPENDS:STATIC=
-
 //Value Computed by CMake
 220FinalProject_SOURCE_DIR:STATIC=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject
 

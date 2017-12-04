@@ -57,50 +57,103 @@ include CMakeFiles/220FinalProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/220FinalProject.dir/flags.make
 
-CMakeFiles/220FinalProject.dir/library.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
-CMakeFiles/220FinalProject.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/library.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/library.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp
+CMakeFiles/220FinalProject.dir/main.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
+CMakeFiles/220FinalProject.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/main.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/main.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp
 
-CMakeFiles/220FinalProject.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/library.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp > CMakeFiles/220FinalProject.dir/library.cpp.i
+CMakeFiles/220FinalProject.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/main.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp > CMakeFiles/220FinalProject.dir/main.cpp.i
 
-CMakeFiles/220FinalProject.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/library.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/library.cpp -o CMakeFiles/220FinalProject.dir/library.cpp.s
+CMakeFiles/220FinalProject.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/main.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp -o CMakeFiles/220FinalProject.dir/main.cpp.s
 
-CMakeFiles/220FinalProject.dir/library.cpp.o.requires:
+CMakeFiles/220FinalProject.dir/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/220FinalProject.dir/library.cpp.o.requires
+.PHONY : CMakeFiles/220FinalProject.dir/main.cpp.o.requires
 
-CMakeFiles/220FinalProject.dir/library.cpp.o.provides: CMakeFiles/220FinalProject.dir/library.cpp.o.requires
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/library.cpp.o.provides.build
-.PHONY : CMakeFiles/220FinalProject.dir/library.cpp.o.provides
+CMakeFiles/220FinalProject.dir/main.cpp.o.provides: CMakeFiles/220FinalProject.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/220FinalProject.dir/main.cpp.o.provides
 
-CMakeFiles/220FinalProject.dir/library.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/library.cpp.o
+CMakeFiles/220FinalProject.dir/main.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/main.cpp.o
+
+
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.o: ../Ingredient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/220FinalProject.dir/Ingredient.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/Ingredient.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp
+
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/Ingredient.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp > CMakeFiles/220FinalProject.dir/Ingredient.cpp.i
+
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/Ingredient.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp -o CMakeFiles/220FinalProject.dir/Ingredient.cpp.s
+
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.requires:
+
+.PHONY : CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.requires
+
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.provides: CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.requires
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.provides.build
+.PHONY : CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.provides
+
+CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/Ingredient.cpp.o
+
+
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o: ../IngredientInventory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp
+
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp > CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i
+
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp -o CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s
+
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.requires:
+
+.PHONY : CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.requires
+
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.provides: CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.requires
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.provides.build
+.PHONY : CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.provides
+
+CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.provides.build: CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o
 
 
 # Object files for target 220FinalProject
 220FinalProject_OBJECTS = \
-"CMakeFiles/220FinalProject.dir/library.cpp.o"
+"CMakeFiles/220FinalProject.dir/main.cpp.o" \
+"CMakeFiles/220FinalProject.dir/Ingredient.cpp.o" \
+"CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
 
 # External object files for target 220FinalProject
 220FinalProject_EXTERNAL_OBJECTS =
 
-lib220FinalProject.a: CMakeFiles/220FinalProject.dir/library.cpp.o
-lib220FinalProject.a: CMakeFiles/220FinalProject.dir/build.make
-lib220FinalProject.a: CMakeFiles/220FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library lib220FinalProject.a"
-	$(CMAKE_COMMAND) -P CMakeFiles/220FinalProject.dir/cmake_clean_target.cmake
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/main.cpp.o
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/Ingredient.cpp.o
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/build.make
+220FinalProject.exe: CMakeFiles/220FinalProject.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 220FinalProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/220FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/220FinalProject.dir/build: lib220FinalProject.a
+CMakeFiles/220FinalProject.dir/build: 220FinalProject.exe
 
 .PHONY : CMakeFiles/220FinalProject.dir/build
 
-CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/library.cpp.o.requires
+CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/main.cpp.o.requires
+CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.requires
+CMakeFiles/220FinalProject.dir/requires: CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.requires
 
 .PHONY : CMakeFiles/220FinalProject.dir/requires
 

@@ -3,5 +3,5 @@ project(220FinalProject)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES library.cpp library.h)
-add_library(220FinalProject ${SOURCE_FILES})
+set(SOURCE_FILES main.cpp Ingredient.cpp IngredientInventory.cpp)
+add_executable(220FinalProject ${SOURCE_FILES})

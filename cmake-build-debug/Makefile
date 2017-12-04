@@ -123,32 +123,86 @@ depend:
 	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/build
 .PHONY : 220FinalProject/fast
 
-library.o: library.cpp.o
+Ingredient.o: Ingredient.cpp.o
 
-.PHONY : library.o
+.PHONY : Ingredient.o
 
 # target to build an object file
-library.cpp.o:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/library.cpp.o
-.PHONY : library.cpp.o
+Ingredient.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.o
+.PHONY : Ingredient.cpp.o
 
-library.i: library.cpp.i
+Ingredient.i: Ingredient.cpp.i
 
-.PHONY : library.i
+.PHONY : Ingredient.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/library.cpp.i
-.PHONY : library.cpp.i
+Ingredient.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.i
+.PHONY : Ingredient.cpp.i
 
-library.s: library.cpp.s
+Ingredient.s: Ingredient.cpp.s
 
-.PHONY : library.s
+.PHONY : Ingredient.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/library.cpp.s
-.PHONY : library.cpp.s
+Ingredient.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.s
+.PHONY : Ingredient.cpp.s
+
+IngredientInventory.o: IngredientInventory.cpp.o
+
+.PHONY : IngredientInventory.o
+
+# target to build an object file
+IngredientInventory.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o
+.PHONY : IngredientInventory.cpp.o
+
+IngredientInventory.i: IngredientInventory.cpp.i
+
+.PHONY : IngredientInventory.i
+
+# target to preprocess a source file
+IngredientInventory.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i
+.PHONY : IngredientInventory.cpp.i
+
+IngredientInventory.s: IngredientInventory.cpp.s
+
+.PHONY : IngredientInventory.s
+
+# target to generate assembly for a file
+IngredientInventory.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s
+.PHONY : IngredientInventory.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 220FinalProject"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... Ingredient.o"
+	@echo "... Ingredient.i"
+	@echo "... Ingredient.s"
+	@echo "... IngredientInventory.o"
+	@echo "... IngredientInventory.i"
+	@echo "... IngredientInventory.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
