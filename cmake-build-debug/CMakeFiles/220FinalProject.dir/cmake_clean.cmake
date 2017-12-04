@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/220FinalProject.dir/library.cpp.o"
-  "lib220FinalProject.pdb"
-  "lib220FinalProject.a"
+  "CMakeFiles/220FinalProject.dir/main.cpp.o"
+  "CMakeFiles/220FinalProject.dir/Ingredient.cpp.o"
+  "CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
+  "220FinalProject.pdb"
+  "220FinalProject"
 )
 
 # Per-language clean rules from dependency scanning.
