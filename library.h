@@ -1,6 +1,0 @@
-#ifndef INC_220FINALPROJECT_LIBRARY_H
-#define INC_220FINALPROJECT_LIBRARY_H
-
-void hello();
-
-#endif

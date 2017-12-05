@@ -123,6 +123,33 @@ depend:
 	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/build
 .PHONY : 220FinalProject/fast
 
+ArrayLib.o: ArrayLib.cpp.o
+
+.PHONY : ArrayLib.o
+
+# target to build an object file
+ArrayLib.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o
+.PHONY : ArrayLib.cpp.o
+
+ArrayLib.i: ArrayLib.cpp.i
+
+.PHONY : ArrayLib.i
+
+# target to preprocess a source file
+ArrayLib.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/ArrayLib.cpp.i
+.PHONY : ArrayLib.cpp.i
+
+ArrayLib.s: ArrayLib.cpp.s
+
+.PHONY : ArrayLib.s
+
+# target to generate assembly for a file
+ArrayLib.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/ArrayLib.cpp.s
+.PHONY : ArrayLib.cpp.s
+
 Ingredient.o: Ingredient.cpp.o
 
 .PHONY : Ingredient.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 220FinalProject"
+	@echo "... ArrayLib.o"
+	@echo "... ArrayLib.i"
+	@echo "... ArrayLib.s"
 	@echo "... Ingredient.o"
 	@echo "... Ingredient.i"
 	@echo "... Ingredient.s"

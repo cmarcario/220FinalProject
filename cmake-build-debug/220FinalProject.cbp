@@ -80,6 +80,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/.idea/220FinalProject.iml">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/.idea/misc.xml">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/.idea/modules.xml">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/.idea/vcs.xml">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/.idea/workspace.xml">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.cpp">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.inl">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/CMakeLists.txt">
+			<Option target="220FinalProject"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp">
 			<Option target="220FinalProject"/>
 		</Unit>
@@ -90,6 +120,42 @@
 			<Option target="220FinalProject"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/List.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.inl">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/PotionCatalogue.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/StringMap.h">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/220FinalProject">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/220FinalProject.cbp">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeCache.txt">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/Makefile">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/cmake_install.cmake">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/lib220FinalProject.a">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/test.txt">
 			<Option target="220FinalProject"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp">
