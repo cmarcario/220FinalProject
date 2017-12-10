@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject
+CMAKE_SOURCE_DIR = /Users/katherine/220final/220FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/katherine/220final/220FinalProject/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles /Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,86 +150,59 @@ ArrayLib.cpp.s:
 	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/ArrayLib.cpp.s
 .PHONY : ArrayLib.cpp.s
 
-Ingredient.o: Ingredient.cpp.o
+Potion.o: Potion.cpp.o
 
-.PHONY : Ingredient.o
-
-# target to build an object file
-Ingredient.cpp.o:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.o
-.PHONY : Ingredient.cpp.o
-
-Ingredient.i: Ingredient.cpp.i
-
-.PHONY : Ingredient.i
-
-# target to preprocess a source file
-Ingredient.cpp.i:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.i
-.PHONY : Ingredient.cpp.i
-
-Ingredient.s: Ingredient.cpp.s
-
-.PHONY : Ingredient.s
-
-# target to generate assembly for a file
-Ingredient.cpp.s:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Ingredient.cpp.s
-.PHONY : Ingredient.cpp.s
-
-IngredientInventory.o: IngredientInventory.cpp.o
-
-.PHONY : IngredientInventory.o
+.PHONY : Potion.o
 
 # target to build an object file
-IngredientInventory.cpp.o:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o
-.PHONY : IngredientInventory.cpp.o
+Potion.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Potion.cpp.o
+.PHONY : Potion.cpp.o
 
-IngredientInventory.i: IngredientInventory.cpp.i
+Potion.i: Potion.cpp.i
 
-.PHONY : IngredientInventory.i
+.PHONY : Potion.i
 
 # target to preprocess a source file
-IngredientInventory.cpp.i:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i
-.PHONY : IngredientInventory.cpp.i
+Potion.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Potion.cpp.i
+.PHONY : Potion.cpp.i
 
-IngredientInventory.s: IngredientInventory.cpp.s
+Potion.s: Potion.cpp.s
 
-.PHONY : IngredientInventory.s
+.PHONY : Potion.s
 
 # target to generate assembly for a file
-IngredientInventory.cpp.s:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s
-.PHONY : IngredientInventory.cpp.s
+Potion.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Potion.cpp.s
+.PHONY : Potion.cpp.s
 
-main.o: main.cpp.o
+PotionCatalogueTester.o: PotionCatalogueTester.cpp.o
 
-.PHONY : main.o
+.PHONY : PotionCatalogueTester.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.o
-.PHONY : main.cpp.o
+PotionCatalogueTester.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/PotionCatalogueTester.cpp.o
+.PHONY : PotionCatalogueTester.cpp.o
 
-main.i: main.cpp.i
+PotionCatalogueTester.i: PotionCatalogueTester.cpp.i
 
-.PHONY : main.i
+.PHONY : PotionCatalogueTester.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.i
-.PHONY : main.cpp.i
+PotionCatalogueTester.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/PotionCatalogueTester.cpp.i
+.PHONY : PotionCatalogueTester.cpp.i
 
-main.s: main.cpp.s
+PotionCatalogueTester.s: PotionCatalogueTester.cpp.s
 
-.PHONY : main.s
+.PHONY : PotionCatalogueTester.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/main.cpp.s
-.PHONY : main.cpp.s
+PotionCatalogueTester.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/PotionCatalogueTester.cpp.s
+.PHONY : PotionCatalogueTester.cpp.s
 
 # Help Target
 help:
@@ -243,15 +216,12 @@ help:
 	@echo "... ArrayLib.o"
 	@echo "... ArrayLib.i"
 	@echo "... ArrayLib.s"
-	@echo "... Ingredient.o"
-	@echo "... Ingredient.i"
-	@echo "... Ingredient.s"
-	@echo "... IngredientInventory.o"
-	@echo "... IngredientInventory.i"
-	@echo "... IngredientInventory.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Potion.o"
+	@echo "... Potion.i"
+	@echo "... Potion.s"
+	@echo "... PotionCatalogueTester.o"
+	@echo "... PotionCatalogueTester.i"
+	@echo "... PotionCatalogueTester.s"
 .PHONY : help
 
 
