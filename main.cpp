@@ -21,6 +21,23 @@ List<std::string>* parseLine(std::string line){
     return result;
 }
 
+void printToFile(std::string lineToPrint, char delimiter, int& fileNum){
+    std::ofstream fout ("records/outFile"+std::to_string(fileNum)+".txt");
+    if (fout) {
+        std::stringstream parts(lineToPrint);
+        while (parts){
+            std::string part;
+            getline(parts,part, delimiter);
+            fout << part << std::endl;
+        }
+        fout.close();
+    }
+    else {
+        std::cout << "Error in opening file";
+    }
+    fileNum++;
+}
+
 
 void setUpTest(IngredientInventory* inventory){
     std::cout<<"Setting up inventory...\n"<<std::endl;
@@ -72,11 +89,13 @@ void mutatorTest(IngredientInventory* inventory){
 }
 
 int main() {
-
+    int fileNum = 1;
     IngredientInventory inventory = IngredientInventory();
 
     setUpTest(&inventory);
+    printToFile(inventory.toString(),'\n',fileNum);
     mutatorTest(&inventory);
+    printToFile(inventory.toString(),'\n',fileNum);
 
     return 0;
 }

@@ -3,19 +3,9 @@ project(220FinalProject)
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
 set(SOURCE_FILES
-        .idea/220FinalProject.iml
-        .idea/misc.xml
-        .idea/modules.xml
-        .idea/vcs.xml
-        .idea/workspace.xml
-        cmake-build-debug/220FinalProject
-        cmake-build-debug/220FinalProject.cbp
-        cmake-build-debug/cmake_install.cmake
-        cmake-build-debug/CMakeCache.txt
-        cmake-build-debug/lib220FinalProject.a
-        cmake-build-debug/Makefile
-        cmake-build-debug/test.txt
         ArrayLib.cpp
         ArrayLib.h
         ArrayList.h

@@ -1,0 +1,26 @@
+Ingredient inventory: 
+bezoar
+Amount in stock: 0
+Ideal Stock: 1
+
+flobberworm mucus
+Amount in stock: 3
+Ideal Stock: 10
+
+lacewing flies
+Amount in stock: 7
+Ideal Stock: 9
+
+lavender
+Amount in stock: 6
+Ideal Stock: 6
+
+unicorn horn
+Amount in stock: 1278
+Ideal Stock: 2000
+
+valerian sprigs
+Amount in stock: 2
+Ideal Stock: 5
+
+
