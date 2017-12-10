@@ -18,7 +18,11 @@ private:
 public:
     ListStringMap();
 
+    ListStringMap(const ListStringMap<T>& mapToCopy);
+
     ~ListStringMap();
+
+    ListStringMap& operator=(const ListStringMap<T>& mapToCopy);
 
     void addItem(std::string key, const T value);
 

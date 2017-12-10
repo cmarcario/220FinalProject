@@ -4,8 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
   "CMakeFiles/220FinalProject.dir/main.cpp.o"
   "220FinalProject.pdb"
-  "220FinalProject.exe"
-  "lib220FinalProject.dll.a"
+  "220FinalProject"
 )
 
 # Per-language clean rules from dependency scanning.

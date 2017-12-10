@@ -6,77 +6,77 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.cpp
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.cpp
 iostream
 -
 ArrayLib.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.h
 string
 -
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayList.h
 List.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/List.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 ArrayList.inl
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.inl
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayList.inl
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.inl
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayList.inl
 iostream
 -
 ArrayLib.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.h
 ArrayList.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayList.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.cpp
 Ingredient.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.h
 string
 -
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.cpp
 IngredientInventory.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.h
 ListStringMap.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.h
 string
 -
 List.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/List.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 Ingredient.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.h
-StringMap.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/StringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.h
+ListStringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/List.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 stdexcept
 -
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.h
 StringMap.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/StringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/StringMap.h
 ListStringMap.inl
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.inl
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.inl
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.inl
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.inl
 ListStringMap.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ListStringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.h
 ArrayList.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayList.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/StringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/StringMap.h
 string
 -
 List.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/List.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/main.cpp
 iostream
 -
 fstream
@@ -84,9 +84,9 @@ fstream
 sstream
 -
 IngredientInventory.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.h
 List.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/List.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 ArrayList.h
-/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayList.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayList.h
 

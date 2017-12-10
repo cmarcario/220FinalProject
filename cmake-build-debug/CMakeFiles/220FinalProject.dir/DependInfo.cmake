@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.cpp" "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o"
-  "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp" "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/Ingredient.cpp.o"
-  "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp" "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
-  "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp" "/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/main.cpp.o"
+  "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.cpp" "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o"
+  "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.cpp" "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/Ingredient.cpp.o"
+  "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.cpp" "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
+  "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/main.cpp" "/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

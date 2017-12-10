@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /cygdrive/c/Users/Chiara/.CLion2017.2/system/cygwin_cmake/bin/cmake.exe -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject
+CMAKE_SOURCE_DIR = /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/220FinalProject.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/220FinalProject.dir/flags.make
 
 CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
 CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o: ../ArrayLib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o -c /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.cpp
 
 CMakeFiles/220FinalProject.dir/ArrayLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/ArrayLib.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.cpp > CMakeFiles/220FinalProject.dir/ArrayLib.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.cpp > CMakeFiles/220FinalProject.dir/ArrayLib.cpp.i
 
 CMakeFiles/220FinalProject.dir/ArrayLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/ArrayLib.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/ArrayLib.cpp -o CMakeFiles/220FinalProject.dir/ArrayLib.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ArrayLib.cpp -o CMakeFiles/220FinalProject.dir/ArrayLib.cpp.s
 
 CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o.provides.build: CMakeFiles/220Fina
 
 CMakeFiles/220FinalProject.dir/Ingredient.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
 CMakeFiles/220FinalProject.dir/Ingredient.cpp.o: ../Ingredient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/220FinalProject.dir/Ingredient.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/Ingredient.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/220FinalProject.dir/Ingredient.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/Ingredient.cpp.o -c /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.cpp
 
 CMakeFiles/220FinalProject.dir/Ingredient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/Ingredient.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp > CMakeFiles/220FinalProject.dir/Ingredient.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.cpp > CMakeFiles/220FinalProject.dir/Ingredient.cpp.i
 
 CMakeFiles/220FinalProject.dir/Ingredient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/Ingredient.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/Ingredient.cpp -o CMakeFiles/220FinalProject.dir/Ingredient.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.cpp -o CMakeFiles/220FinalProject.dir/Ingredient.cpp.s
 
 CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/220FinalProject.dir/Ingredient.cpp.o.provides.build: CMakeFiles/220Fi
 
 CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
 CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o: ../IngredientInventory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o -c /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.cpp
 
 CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp > CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.cpp > CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.i
 
 CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/IngredientInventory.cpp -o CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/IngredientInventory.cpp -o CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.s
 
 CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/220FinalProject.dir/main.cpp.o: CMakeFiles/220FinalProject.dir/flags.make
 CMakeFiles/220FinalProject.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/220FinalProject.dir/main.cpp.o"
-	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/main.cpp.o -c /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/220FinalProject.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/220FinalProject.dir/main.cpp.o -c /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/main.cpp
 
 CMakeFiles/220FinalProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/220FinalProject.dir/main.cpp.i"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp > CMakeFiles/220FinalProject.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/main.cpp > CMakeFiles/220FinalProject.dir/main.cpp.i
 
 CMakeFiles/220FinalProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/220FinalProject.dir/main.cpp.s"
-	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/main.cpp -o CMakeFiles/220FinalProject.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/main.cpp -o CMakeFiles/220FinalProject.dir/main.cpp.s
 
 CMakeFiles/220FinalProject.dir/main.cpp.o.requires:
 
@@ -163,17 +163,17 @@ CMakeFiles/220FinalProject.dir/main.cpp.o.provides.build: CMakeFiles/220FinalPro
 # External object files for target 220FinalProject
 220FinalProject_EXTERNAL_OBJECTS =
 
-220FinalProject.exe: CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o
-220FinalProject.exe: CMakeFiles/220FinalProject.dir/Ingredient.cpp.o
-220FinalProject.exe: CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o
-220FinalProject.exe: CMakeFiles/220FinalProject.dir/main.cpp.o
-220FinalProject.exe: CMakeFiles/220FinalProject.dir/build.make
-220FinalProject.exe: CMakeFiles/220FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 220FinalProject.exe"
+220FinalProject: CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o
+220FinalProject: CMakeFiles/220FinalProject.dir/Ingredient.cpp.o
+220FinalProject: CMakeFiles/220FinalProject.dir/IngredientInventory.cpp.o
+220FinalProject: CMakeFiles/220FinalProject.dir/main.cpp.o
+220FinalProject: CMakeFiles/220FinalProject.dir/build.make
+220FinalProject: CMakeFiles/220FinalProject.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 220FinalProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/220FinalProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/220FinalProject.dir/build: 220FinalProject.exe
+CMakeFiles/220FinalProject.dir/build: 220FinalProject
 
 .PHONY : CMakeFiles/220FinalProject.dir/build
 
@@ -189,6 +189,6 @@ CMakeFiles/220FinalProject.dir/clean:
 .PHONY : CMakeFiles/220FinalProject.dir/clean
 
 CMakeFiles/220FinalProject.dir/depend:
-	cd /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/220FinalProject.dir/depend
 

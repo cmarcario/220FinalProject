@@ -1,4 +1,4 @@
-C:\Users\Chiara\.CLion2017.2\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/Chiara/CLionProjects/220FinalProject/cmake-build-debug
+-- Build files have been written to: /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/cmake-build-debug
