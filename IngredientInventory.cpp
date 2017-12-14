@@ -10,7 +10,59 @@ IngredientInventory::IngredientInventory() {
 }
 
 IngredientInventory::~IngredientInventory() {
+    List<std::string>* toDelete = inventory->listKeys();
+
+    for (int i = 0; i < toDelete->itemCount(); i++){
+        removeIngredient(toDelete->getValueAt(i));
+    }
+
+    delete toDelete;
+
     delete inventory;
+}
+
+IngredientInventory::IngredientInventory(const IngredientInventory& inventoryToCopy){
+
+    inventory = new ListStringMap<Ingredient*>();
+
+    List<std::string>* keys = inventoryToCopy.inventory->listKeys();
+    List<Ingredient*>* values = inventoryToCopy.inventory->listValues();
+
+    for (int i = 0; inventoryToCopy.inventory->itemCount(); i++){
+        addIngredient(new Ingredient(*(values->getValueAt(i))));
+    }
+
+    delete keys;
+    delete values;
+}
+
+IngredientInventory& IngredientInventory::operator=(const IngredientInventory& inventoryToCopy) {
+    if (this != &inventoryToCopy){
+
+        List<Ingredient*>* toDelete = inventory->listValues();
+
+        for (int i = 0; i < toDelete->itemCount(); i++){
+            delete toDelete->getValueAt(i);
+        }
+
+        delete toDelete;
+        toDelete = nullptr;
+
+        delete inventory;
+
+        inventory = new ListStringMap<Ingredient*>();
+
+        List<std::string>* keys = inventoryToCopy.inventory->listKeys();
+        List<Ingredient*>* values = inventoryToCopy.inventory->listValues();
+
+        for (int i = 0; inventoryToCopy.inventory->itemCount(); i++){
+            addIngredient(new Ingredient(*(values->getValueAt(i))));
+        }
+
+        delete keys;
+        delete values;
+    }
+    return *this;
 }
 
 void IngredientInventory::addIngredient(Ingredient* ingredientToAdd){

@@ -21,8 +21,11 @@ public:
 
     ~IngredientInventory();
 
-    void addIngredient(Ingredient* ingredientToAdd);
+    IngredientInventory(const IngredientInventory& inventoryToCopy);
 
+    IngredientInventory& operator=(const IngredientInventory& inventoryToCopy);
+
+    void addIngredient(Ingredient* ingredientToAdd);
 
 
     void addIngredient(std::string name, int have=0, int want=0);

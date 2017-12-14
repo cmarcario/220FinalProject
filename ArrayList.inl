@@ -14,7 +14,7 @@ ArrayList<T>::ArrayList(int initialCapacity){
 
 
 template <class T>
-ArrayList<T>::ArrayList(const ArrayList& arrayListToCopy) {
+ArrayList<T>::ArrayList(const ArrayList<T>& arrayListToCopy) {
     currCapacity = arrayListToCopy.currCapacity;
     currItemCount = arrayListToCopy.currItemCount;
     array = new T[currCapacity];
@@ -37,7 +37,7 @@ ArrayList<T>& ArrayList<T>::operator=(const ArrayList<T>& arrayListToCopy){
         array = new T[currCapacity];
 
         for (int i = 0; i < currItemCount; i++){
-            array[i] = new T(arrayListToCopy.array[i]);
+            array[i] = arrayListToCopy.array[i];
         }
     }
     return *this;
