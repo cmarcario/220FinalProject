@@ -117,3 +117,11 @@ std::string IngredientInventory::toString(){
     }
     return str;
 }
+
+int IngredientInventory::getHaveValueOf(std::string name){
+    return inventory->getItem(name)->getHaveValue();
+}
+
+int IngredientInventory::getWantValueOf(std::string name){
+    return inventory->getItem(name)->getWantValue();
+}

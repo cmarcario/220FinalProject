@@ -91,3 +91,7 @@ std::string Potion::getWaitList() {
     waitList = tempList;
     return waitListString;
 }
+
+List<PotionRequirement*>* getRecipe(){
+    return recipe;
+}
