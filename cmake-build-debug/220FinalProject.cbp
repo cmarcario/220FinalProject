@@ -92,6 +92,12 @@
 		<Unit filename="/Users/katherine/220final/220FinalProject/Potion.h">
 			<Option target="220FinalProject"/>
 		</Unit>
+		<Unit filename="/Users/katherine/220final/220FinalProject/PotionCatalogue.cpp">
+			<Option target="220FinalProject"/>
+		</Unit>
+		<Unit filename="/Users/katherine/220final/220FinalProject/PotionCatalogue.h">
+			<Option target="220FinalProject"/>
+		</Unit>
 		<Unit filename="/Users/katherine/220final/220FinalProject/PotionCatalogueTester.cpp">
 			<Option target="220FinalProject"/>
 		</Unit>

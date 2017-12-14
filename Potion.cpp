@@ -4,6 +4,7 @@
 
 #include <string>
 #include "Potion.h"
+#include "ArrayList.h"
 
 Potion::Potion(std::string name, List<PotionRequirement*>* recipe) {
     this->name = name;
@@ -12,7 +13,25 @@ Potion::Potion(std::string name, List<PotionRequirement*>* recipe) {
 }
 
 Potion::Potion(const Potion& potionToCopy) {
+    //what is this
+//    name = potionToCopy.name;
+//    recipe = potionToCopy.recipe;
+//    for (int i = 0; i < potionToCopy.recipe->itemCount(); i++) {
+//        PotionRequirement* toCopy = potionToCopy.recipe->getValueAt(i);
+//        PotionRequirement* toAdd = new PotionRequirement(toCopy->getName(), toCopy->getNumNeeded());
+//        recipe->insertAtEnd(toAdd);
+//    }
+//    waitList = potionToCopy.waitList;
+//    waitList = new LinkedQueue<Customer*>(*potionToCopy.waitList);
 
+
+}
+
+Potion& Potion::operator=(const Potion& potionToCopy) {
+    if (this != &potionToCopy) {
+
+    }
+    return *this;
 }
 
 Potion::~Potion() {
@@ -31,7 +50,7 @@ std::string Potion::getName(){
 }
 
 std::string Potion::getPotionInfo(){
-    std::string info = "Name: " + name + "\n";
+    std::string info = name + " Recipe: \n";
     for (int i = 0; i < recipe->itemCount(); i++) {
         info+=recipe->getValueAt(i)->getName();
         info+=": ";
@@ -47,4 +66,28 @@ void Potion::addToWaitList(Customer* newCustomer){
 
 Customer* Potion::getFromWaitList(){
     return waitList->dequeue();
+}
+
+void Potion::modifyRecipe(List<PotionRequirement*>* newRecipe) {
+    for (int i = 0; i < recipe->itemCount(); i++) {
+        delete recipe->getValueAt(i);
+    }
+    delete recipe;
+    recipe = newRecipe;
+}
+
+std::string Potion::getWaitList() {
+    Queue<Customer*>* tempList = new LinkedQueue<Customer*>();
+    std::string waitListString = name + " Wait List:\n";
+    if (waitList->isEmpty()) {
+        waitListString+= "None\n";
+    }
+    while(!waitList->isEmpty()) {
+        Customer* curr = waitList->dequeue();
+        waitListString+=curr->toString();
+        tempList->enqueue(curr);
+    }
+    delete waitList;
+    waitList = tempList;
+    return waitListString;
 }

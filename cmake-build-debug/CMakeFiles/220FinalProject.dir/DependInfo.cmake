@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/katherine/220final/220FinalProject/ArrayLib.cpp" "/Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/ArrayLib.cpp.o"
   "/Users/katherine/220final/220FinalProject/Potion.cpp" "/Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/Potion.cpp.o"
+  "/Users/katherine/220final/220FinalProject/PotionCatalogue.cpp" "/Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/PotionCatalogue.cpp.o"
   "/Users/katherine/220final/220FinalProject/PotionCatalogueTester.cpp" "/Users/katherine/220final/220FinalProject/cmake-build-debug/CMakeFiles/220FinalProject.dir/PotionCatalogueTester.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

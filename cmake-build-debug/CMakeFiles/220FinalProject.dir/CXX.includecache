@@ -34,6 +34,10 @@ ArrayList.h
 string
 -
 
+/Users/katherine/220final/220FinalProject/Ingredient.h
+string
+-
+
 /Users/katherine/220final/220FinalProject/LinkedNode.h
 string
 -
@@ -64,11 +68,25 @@ LinkedQueue.h
 stdexcept
 -
 
+/Users/katherine/220final/220FinalProject/ListStringMap.h
+StringMap.h
+/Users/katherine/220final/220FinalProject/StringMap.h
+ListStringMap.inl
+/Users/katherine/220final/220FinalProject/ListStringMap.inl
+
+/Users/katherine/220final/220FinalProject/ListStringMap.inl
+ListStringMap.h
+/Users/katherine/220final/220FinalProject/ListStringMap.h
+ArrayList.h
+/Users/katherine/220final/220FinalProject/ArrayList.h
+
 /Users/katherine/220final/220FinalProject/Potion.cpp
 string
 -
 Potion.h
 /Users/katherine/220final/220FinalProject/Potion.h
+ArrayList.h
+/Users/katherine/220final/220FinalProject/ArrayList.h
 
 /Users/katherine/220final/220FinalProject/Potion.h
 Queue.h
@@ -82,11 +100,31 @@ Customer.h
 PotionRequirement.h
 /Users/katherine/220final/220FinalProject/PotionRequirement.h
 
+/Users/katherine/220final/220FinalProject/PotionCatalogue.cpp
+PotionCatalogue.h
+/Users/katherine/220final/220FinalProject/PotionCatalogue.h
+Ingredient.h
+/Users/katherine/220final/220FinalProject/Ingredient.h
+ListStringMap.h
+/Users/katherine/220final/220FinalProject/ListStringMap.h
+List.h
+/Users/katherine/220final/220FinalProject/List.h
+
+/Users/katherine/220final/220FinalProject/PotionCatalogue.h
+string
+-
+Potion.h
+/Users/katherine/220final/220FinalProject/Potion.h
+StringMap.h
+/Users/katherine/220final/220FinalProject/StringMap.h
+
 /Users/katherine/220final/220FinalProject/PotionCatalogueTester.cpp
 List.h
 /Users/katherine/220final/220FinalProject/List.h
 ArrayList.h
 /Users/katherine/220final/220FinalProject/ArrayList.h
+PotionCatalogue.h
+/Users/katherine/220final/220FinalProject/PotionCatalogue.h
 Potion.h
 /Users/katherine/220final/220FinalProject/Potion.h
 PotionRequirement.h
@@ -103,4 +141,10 @@ string
 -
 stdexcept
 -
+
+/Users/katherine/220final/220FinalProject/StringMap.h
+string
+-
+List.h
+/Users/katherine/220final/220FinalProject/List.h
 

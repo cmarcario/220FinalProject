@@ -20,15 +20,17 @@ private:
 public:
 
     //constructor
-    Potion(std::string name, List<PotionRequirement *> *recipe);
+    Potion(std::string name, List<PotionRequirement*>* recipe);
 
     //copy constructor
     Potion(const Potion& potionToCopy);
 
     //assignment operator
+    Potion& operator=(const Potion& potionToCopy);
 
     ~Potion();
 
+    //get the name of the potion
     std::string getName();
 
     //returns a string with the potion information formatted
@@ -39,6 +41,12 @@ public:
 
     //dequeues a customer from the wait list
     Customer* getFromWaitList();
+
+    //replace recipe
+    void modifyRecipe(List<PotionRequirement*>* newRecipe);
+
+    //wait list to string - does not change list
+    std::string getWaitList();
 
 };
 

@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES
         ArrayLib.cpp
         Potion.cpp
+        PotionCatalogue.cpp
         PotionCatalogueTester.cpp )
 
 add_executable(220FinalProject ${SOURCE_FILES})

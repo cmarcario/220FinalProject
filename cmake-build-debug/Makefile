@@ -177,6 +177,33 @@ Potion.cpp.s:
 	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/Potion.cpp.s
 .PHONY : Potion.cpp.s
 
+PotionCatalogue.o: PotionCatalogue.cpp.o
+
+.PHONY : PotionCatalogue.o
+
+# target to build an object file
+PotionCatalogue.cpp.o:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/PotionCatalogue.cpp.o
+.PHONY : PotionCatalogue.cpp.o
+
+PotionCatalogue.i: PotionCatalogue.cpp.i
+
+.PHONY : PotionCatalogue.i
+
+# target to preprocess a source file
+PotionCatalogue.cpp.i:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/PotionCatalogue.cpp.i
+.PHONY : PotionCatalogue.cpp.i
+
+PotionCatalogue.s: PotionCatalogue.cpp.s
+
+.PHONY : PotionCatalogue.s
+
+# target to generate assembly for a file
+PotionCatalogue.cpp.s:
+	$(MAKE) -f CMakeFiles/220FinalProject.dir/build.make CMakeFiles/220FinalProject.dir/PotionCatalogue.cpp.s
+.PHONY : PotionCatalogue.cpp.s
+
 PotionCatalogueTester.o: PotionCatalogueTester.cpp.o
 
 .PHONY : PotionCatalogueTester.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Potion.o"
 	@echo "... Potion.i"
 	@echo "... Potion.s"
+	@echo "... PotionCatalogue.o"
+	@echo "... PotionCatalogue.i"
+	@echo "... PotionCatalogue.s"
 	@echo "... PotionCatalogueTester.o"
 	@echo "... PotionCatalogueTester.i"
 	@echo "... PotionCatalogueTester.s"
