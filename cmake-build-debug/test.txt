@@ -1,6 +1,0 @@
-flobberworm mucus,3,10
-lavender,6,6
-valerian sprigs,2,5
-bezoar,0,1
-unicorn horn,1278,2000
-lacewing flies,7,9
