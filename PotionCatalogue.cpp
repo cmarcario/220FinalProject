@@ -16,7 +16,7 @@ PotionCatalogue::PotionCatalogue(const PotionCatalogue& catalogueToCopy) {
     List<std::string>* keys = catalogueToCopy.catalogue->listKeys();
     List<Potion*>* values = catalogueToCopy.catalogue->listValues();
     for (int i = 0; i < keys->itemCount(); i++) {
-        //catalogue->addItem(keys->getValueAt(i), );
+        //catalogue->addItem(keys->getValueAt(i),);
     }
 
     //catalogue->addItem(catalogue->)
