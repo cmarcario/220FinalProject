@@ -51,8 +51,8 @@ List.h
 /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 Ingredient.h
 /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/Ingredient.h
-ListStringMap.h
-/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/ListStringMap.h
+StringMap.h
+/Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/StringMap.h
 
 /Users/Benjamin/Documents/School/School_Fall_2017/220/potion_shop2/220FinalProject/List.h
 stdexcept

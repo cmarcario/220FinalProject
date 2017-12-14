@@ -29,7 +29,7 @@ ListStringMap<T>::ListStringMap(const ListStringMap<T>& mapToCopy) {
 }
 
 template <class T>
-ListStringMap<T>& ListStringMap::operator=(const ListStringMap<T>& mapToCopy) {
+ListStringMap<T>& ListStringMap<T>::operator=(const ListStringMap<T>& mapToCopy) {
     if (this != &mapToCopy){
         delete keys;
         delete values;
