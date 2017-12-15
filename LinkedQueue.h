@@ -21,6 +21,7 @@ private:
 
     LinkedNode<T>* front;
     LinkedNode<T>* end;
+    int count;
 
 public:
     
@@ -29,6 +30,9 @@ public:
 
     //Copy Constructor
     LinkedQueue(const LinkedQueue& queueToCopy);
+
+    //assignment operator
+    LinkedQueue& operator=(const LinkedQueue& queueToCopy);
 
     //Destructor
     ~LinkedQueue();
@@ -42,6 +46,9 @@ public:
 
     //returns true if the queue has no items, false otherwise
     bool isEmpty();
+
+    //gets the number of items in the queue
+    int getCount();
 
 };
 

@@ -29,6 +29,8 @@ public:
     //returns true if the queue has no items, false otherwise
     virtual bool isEmpty()=0;
 
+    virtual int getCount()=0;
+
 };
 
 #endif //INC_220FINALPROJECT_QUEUE_H

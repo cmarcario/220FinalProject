@@ -8,6 +8,7 @@ template <class T>
 LinkedQueue<T>::LinkedQueue(){
     front = nullptr;
     end = nullptr;
+    count = 0;
 }
 
 //Copy Constructor
@@ -31,6 +32,38 @@ LinkedQueue<T>::LinkedQueue(const LinkedQueue<T>& queueToCopy){
         }
         end = endOfNewChain;
     }
+    count = queueToCopy.count;
+}
+
+LinkedQueue& LinkedQueue::operator=(const LinkedQueue& queueToCopy) {
+    if (this != &queueToCopy) {
+        while (front != nullptr){
+            LinkedNode<T>* toDelete = end;
+            front = front->getNext();
+            delete toDelete;
+        }
+
+        if (queueToCopy.front == nullptr){
+            front = nullptr;
+            end = nullptr;
+        }
+        else {
+            LinkedNode<T>* nodeToCopy = queueToCopy.front;
+            front = new LinkedNode<T>(nodeToCopy->getItem());
+            LinkedNode<T>* endOfNewChain = front;
+
+            nodeToCopy = nodeToCopy->getNext();
+            while (nodeToCopy != nullptr){
+                LinkedNode<T>* newNode = new LinkedNode<T>(nodeToCopy->getItem());
+                endOfNewChain->setNext(newNode);
+                endOfNewChain = newNode;
+                nodeToCopy = nodeToCopy->getNext();
+            }
+            end = endOfNewChain;
+        }
+        count = queueToCopy.count;
+    }
+    return *this;
 }
 
 //Destructor
@@ -57,6 +90,7 @@ void LinkedQueue<T>::enqueue(T item){
         end->setNext(newNode);
         end = newNode;
     }
+    count++;
 }
 
 //takes an item off the front of the queue and returns it
@@ -77,6 +111,7 @@ T LinkedQueue<T>::dequeue(){
             front = front->getNext();
             delete toDelete;
         }
+        count--;
         return item;
     }
 }
@@ -85,4 +120,8 @@ T LinkedQueue<T>::dequeue(){
 template <class T>
 bool LinkedQueue<T>::isEmpty(){
     return front == nullptr;
+}
+
+int LinkedQueue<T>getCount() {
+    return count;
 }
