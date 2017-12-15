@@ -102,11 +102,55 @@ void testCopyConstructor() {
 
 }
 
+void testCatalogueCopy() {
+    List<PotionRequirement*>* recipe = makePotionRecipe();
+    Potion* testPotion = new Potion("Potion1", recipe);
+
+    List<PotionRequirement*>* recipe2 = makePotionRecipe();
+    List<PotionRequirement*>* recipe3 = makePotionRecipe();
+    List<PotionRequirement*>* recipe4 = makePotionRecipe();
+
+    Potion* test2 = new Potion("Potion2", recipe2);
+    Potion* test3 = new Potion("Potion3", recipe3);
+
+    PotionCatalogue* catalogue = new PotionCatalogue();
+    catalogue->addPotion(testPotion);
+    catalogue->addPotion("Potion4", recipe4);
+    catalogue->addPotion(test2);
+    catalogue->addPotion(test3);
+
+    PotionCatalogue* copy = new PotionCatalogue(*catalogue);
+
+    //std::cout << catalogue->getAllInfoAndWaitLists() << std::endl;
+    //std::cout << copy->getAllInfoAndWaitLists() << std::endl;
+
+    List<PotionRequirement*>* potionreqs = new ArrayList<PotionRequirement*>();
+    for(int i = 5; i<10; i++) {
+        potionreqs->insertAtEnd(new PotionRequirement("ingredient" + std::to_string(i), i));
+    }
+    catalogue->modifyPotion("Potion3", potionreqs);
+
+    //std::cout << catalogue->getAllInfoAndWaitLists() << std::endl;
+    //std::cout << copy->getAllInfoAndWaitLists() << std::endl;
+
+    *copy = *catalogue;
+
+    std::cout << catalogue->getAllInfoAndWaitLists() << std::endl;
+    std::cout << copy->getAllInfoAndWaitLists() << std::endl;
+
+    catalogue->modifyPotion("Potion2", potionreqs);
+
+    std::cout << catalogue->getAllInfoAndWaitLists() << std::endl;
+    std::cout << copy->getAllInfoAndWaitLists() << std::endl;
+}
+
 int main() {
 
     //testPotions();
 
     //testCopyConstructor();
+
+    testCatalogueCopy();
 
     return 0;
 }

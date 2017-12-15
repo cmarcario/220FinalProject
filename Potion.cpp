@@ -13,23 +13,54 @@ Potion::Potion(std::string name, List<PotionRequirement*>* recipe) {
 }
 
 Potion::Potion(const Potion& potionToCopy) {
-    //what is this
-//    name = potionToCopy.name;
-//    recipe = potionToCopy.recipe;
-//    for (int i = 0; i < potionToCopy.recipe->itemCount(); i++) {
-//        PotionRequirement* toCopy = potionToCopy.recipe->getValueAt(i);
-//        PotionRequirement* toAdd = new PotionRequirement(toCopy->getName(), toCopy->getNumNeeded());
-//        recipe->insertAtEnd(toAdd);
-//    }
-//    waitList = potionToCopy.waitList;
-//    waitList = new LinkedQueue<Customer*>(*potionToCopy.waitList);
-
+    name = potionToCopy.name;
+    recipe = new ArrayList<PotionRequirement*>();
+    for (int i = 0; i < potionToCopy.recipe->itemCount(); i++) {
+        PotionRequirement* toCopy = potionToCopy.recipe->getValueAt(i);
+        PotionRequirement* toAdd = new PotionRequirement(toCopy->getName(), toCopy->getNumNeeded());
+        recipe->insertAtEnd(toAdd);
+    }
+    waitList = new LinkedQueue<Customer*>();
+    List<Customer*>* qToCopy = new ArrayList<Customer*>();
+    while(!potionToCopy.waitList->isEmpty()) {
+        qToCopy->insertAtEnd(potionToCopy.waitList->dequeue());
+    }
+    for (int i = 0; i < qToCopy->itemCount(); i++) {
+        potionToCopy.waitList->enqueue(new Customer(qToCopy->getValueAt(i)->getName(), qToCopy->getValueAt(i)->getAddress()));
+        waitList->enqueue(new Customer(qToCopy->getValueAt(i)->getName(), qToCopy->getValueAt(i)->getAddress()));
+        delete qToCopy->getValueAt(i);
+    }
 
 }
 
 Potion& Potion::operator=(const Potion& potionToCopy) {
     if (this != &potionToCopy) {
+        for (int i = 0; i < recipe->itemCount(); i++) {
+            delete recipe->getValueAt(i);
+        }
+        while(!waitList->isEmpty()) {
+            delete waitList->dequeue();
+        }
+        delete recipe;
+        delete waitList;
 
+        name = potionToCopy.name;
+        recipe = new ArrayList<PotionRequirement*>();
+        for (int i = 0; i < potionToCopy.recipe->itemCount(); i++) {
+            PotionRequirement* toCopy = potionToCopy.recipe->getValueAt(i);
+            PotionRequirement* toAdd = new PotionRequirement(toCopy->getName(), toCopy->getNumNeeded());
+            recipe->insertAtEnd(toAdd);
+        }
+        waitList = new LinkedQueue<Customer*>();
+        List<Customer*>* qToCopy = new ArrayList<Customer*>();
+        while(!potionToCopy.waitList->isEmpty()) {
+            qToCopy->insertAtEnd(potionToCopy.waitList->dequeue());
+        }
+        for (int i = 0; i < qToCopy->itemCount(); i++) {
+            potionToCopy.waitList->enqueue(new Customer(qToCopy->getValueAt(i)->getName(), qToCopy->getValueAt(i)->getAddress()));
+            waitList->enqueue(new Customer(qToCopy->getValueAt(i)->getName(), qToCopy->getValueAt(i)->getAddress()));
+            delete qToCopy->getValueAt(i);
+        }
     }
     return *this;
 }
@@ -92,6 +123,6 @@ std::string Potion::getWaitList() {
     return waitListString;
 }
 
-List<PotionRequirement*>* getRecipe(){
+List<PotionRequirement*>* Potion::getRecipe(){
     return recipe;
 }

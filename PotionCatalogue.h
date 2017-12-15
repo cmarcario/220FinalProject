@@ -65,6 +65,9 @@ public:
     //get the recipe and wait list information for all potions
     std::string getAllInfoAndWaitLists();
 
+    //get a list of pointers to all of the potions
+    List<Potion*>* listPotions();
+
 
 };
 

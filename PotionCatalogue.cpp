@@ -16,15 +16,25 @@ PotionCatalogue::PotionCatalogue(const PotionCatalogue& catalogueToCopy) {
     List<std::string>* keys = catalogueToCopy.catalogue->listKeys();
     List<Potion*>* values = catalogueToCopy.catalogue->listValues();
     for (int i = 0; i < keys->itemCount(); i++) {
-        //catalogue->addItem(keys->getValueAt(i),);
+        catalogue->addItem(keys->getValueAt(i), new Potion(*values->getValueAt(i)));
     }
-
-    //catalogue->addItem(catalogue->)
 }
 
 PotionCatalogue& PotionCatalogue::operator=(const PotionCatalogue& catalogueToCopy) {
     if (this != &catalogueToCopy) {
+        List<std::string>* keys = catalogue->listKeys();
+        for (int i = 0; i < keys->itemCount(); i++) {
+            Potion* toDelete = catalogue->getItem(keys->getValueAt(i));
+            delete toDelete;
+        }
+        delete catalogue;
 
+        catalogue = new ListStringMap<Potion*>;
+        List<std::string>* newKeys = catalogueToCopy.catalogue->listKeys();
+        List<Potion*>* values = catalogueToCopy.catalogue->listValues();
+        for (int i = 0; i < newKeys->itemCount(); i++) {
+            catalogue->addItem(newKeys->getValueAt(i), new Potion(*values->getValueAt(i)));
+        }
     }
     return *this;
 }
@@ -106,4 +116,8 @@ std::string PotionCatalogue::getAllInfoAndWaitLists() {
     }
 
     return allInfo;
+}
+
+List<Potion*>* PotionCatalogue::listPotions(){
+    return catalogue->listValues();
 }
