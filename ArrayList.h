@@ -34,10 +34,10 @@ public:
     ArrayList(int initialCapacity=5);
 
     //Copy Constructor
-    ArrayList(const ArrayList& arrayListToCopy);
+    ArrayList(const ArrayList<T>& arrayListToCopy);
 
     //Overloaded Assignment Operator
-    ArrayList& operator=(const ArrayList& arrayListToCopy);
+    ArrayList& operator=(const ArrayList<T>& arrayListToCopy);
 
     //Destructor
     ~ArrayList();

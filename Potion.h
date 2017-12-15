@@ -48,6 +48,9 @@ public:
     //wait list to string - does not change list
     std::string getWaitList();
 
+    //get a pointer to the list of all the potion Requirements for this potion
+    List<PotionRequirement*>* getRecipe();
+
 };
 
 #endif //INC_220FINALPROJECT_POTION_H

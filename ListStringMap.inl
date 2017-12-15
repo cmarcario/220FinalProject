@@ -17,6 +17,33 @@ ListStringMap<T>::~ListStringMap(){
     delete values;
 }
 
+template <class T>
+ListStringMap<T>::ListStringMap(const ListStringMap<T>& mapToCopy) {
+    keys = new ArrayList<std::string>();
+    values = new ArrayList<T>();
+
+    for (int  i = 0; i < mapToCopy.keys->itemCount(); i++){
+        keys->insertAt(mapToCopy.keys->getValueAt(i), i);
+        values->insertAt(mapToCopy.values->getValueAt(i), i);
+    }
+}
+
+template <class T>
+ListStringMap<T>& ListStringMap<T>::operator=(const ListStringMap<T>& mapToCopy) {
+    if (this != &mapToCopy){
+        delete keys;
+        delete values;
+
+        keys = new ArrayList<std::string>();
+        values = new ArrayList<T>();
+
+        for (int  i = 0; i < mapToCopy.keys->itemCount(); i++){
+            keys->insertAt(mapToCopy.keys->getValueAt(i), i);
+            values->insertAt(mapToCopy.values->getValueAt(i), i);
+        }
+    }
+    return *this;
+}
 
 template <class T>
 int ListStringMap<T>::findSortIndex(std::string key) {
@@ -65,7 +92,7 @@ List<std::string>* ListStringMap<T>::listKeys(){
 
 template <class T>
 List<T>* ListStringMap<T>::listValues(){
-    List<T>* tLi =  values;
+    List<T>* tLi = values;
     return tLi;
 }
 

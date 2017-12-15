@@ -19,7 +19,19 @@ public:
 
     IngredientInventory();
 
+
+
     ~IngredientInventory();
+
+
+
+    IngredientInventory(const IngredientInventory& inventoryToCopy);
+
+
+
+    IngredientInventory& operator=(const IngredientInventory& inventoryToCopy);
+
+
 
     void addIngredient(Ingredient* ingredientToAdd);
 
@@ -47,6 +59,11 @@ public:
 
     void setWantValueOf(std::string name, int amt);
 
+
+    int getHaveValueOf(std::string name);
+
+
+    int getWantValueOf(std::string name);
 
 
     List<Ingredient*>* listInventory();
