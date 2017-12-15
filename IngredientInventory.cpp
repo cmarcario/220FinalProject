@@ -125,3 +125,15 @@ int IngredientInventory::getHaveValueOf(std::string name){
 int IngredientInventory::getWantValueOf(std::string name){
     return inventory->getItem(name)->getWantValue();
 }
+
+bool IngredientInventory::checkIfIngredientExists(std::string name){
+
+    List<std::string>* ingrdientNames = inventory->listKeys();
+
+    for (int i = 0; i < ingrdientNames->itemCount(); i++){
+        if (!(ingrdientNames->getValueAt(i).compare(name))){
+            return true;
+        }
+    }
+    return false;
+}

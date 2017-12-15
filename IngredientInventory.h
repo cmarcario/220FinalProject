@@ -72,7 +72,7 @@ public:
 
     Ingredient* getIngredient(std::string name);
 
-
+    bool checkIfIngredientExists(std::string name);
 
     std::string toString();
 };

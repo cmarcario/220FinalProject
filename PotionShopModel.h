@@ -8,6 +8,7 @@
 #include "PotionCatalogue.h"
 #include "IngredientInventory.h"
 #include "PotionRequirement.h"
+#include "Customer.h"
 
 class PotionShopModel {
 private:
@@ -20,6 +21,8 @@ private:
 
 public:
 
+    PotionShopModel();
+
     PotionShopModel(std::string inventoryFile, std::string catalogueFile);
 
     std::string getPotionString(std::string potionName);
@@ -27,6 +30,8 @@ public:
     std::string listCatalogue();
 
     std::string listInventory();
+
+    void addPotion (std::string name, List<PotionRequirement*>* recipe);
 
     void modifyPotion(std::string potionToModify, List<PotionRequirement*>* recipe);
 
@@ -38,9 +43,9 @@ public:
 
     void writeOverstockReport(std::string fileName);
 
-    void writeAllToFile(std::string fileName);
+    void writeAllToFile(std::string catalogueFile, std::string inventoryFile);
 
-    void addToWaitList(std::string name, std::string address);
+    void addToWaitList(std::string potionName, std::string customerName, std::string address);
 };
 
 
